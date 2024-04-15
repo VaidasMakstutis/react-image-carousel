@@ -1,7 +1,9 @@
+import "./styles.css";
+
 const App = () => {
   return (
     <div className="App">
-      <h2>Image carousel</h2>
+      <h1>Image carousel</h1>
     </div>
   );
 };
