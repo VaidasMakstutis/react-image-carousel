@@ -1,0 +1,43 @@
+.container {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 32%, transparent),
+    url("https://lumiere-a.akamaihd.net/v1/images/diehard1_franchise_584x800_8f311ed5.jpeg?region=0%2C0%2C584%2C800");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+}
+
+.tags {
+  padding: 0.5rem 0;
+}
+.tags span {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: red;
+}
+
+.description {
+  text-align: start;
+  color: rgba(255, 255, 255, 0.8);
+  display: -webkit-box;
+  max-width: 50%;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
