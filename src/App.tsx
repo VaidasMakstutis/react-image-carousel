@@ -1,7 +1,10 @@
+import "./styles.css";
+import HeroBanner from "./components/HeroBanner";
+
 const App = () => {
   return (
     <div className="App">
-      <h2>Image carousel</h2>
+      <HeroBanner />
     </div>
   );
 };
